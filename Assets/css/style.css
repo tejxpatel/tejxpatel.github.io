@@ -1,38 +1,36 @@
 
 /* <------------------------------- NAVIGATION -------------------------------> */
+.main-nav nav {
+	text-shadow: .2px .2px black;
+}
 
-nav ul {
+.main-nav nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-top: 0;
     overflow: hidden;
-	text-align: center;
+    text-align: center;
 }
-
-nav li {
-    display:inline-block;
-	font-size: 1.5em;
-	font-family: 'Open Sans Condensed', sans-serif;
-
+.main-nav nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
-
-nav li a {
+.main-nav nav li a {
     display: block;
     color: #EE9D22;
     text-align: center;
     padding: 1em 4em;
     text-decoration: none;
-	border-bottom: thick solid #F4BB9E;
+    border-bottom: thick solid #F4BB9E;
 }
-
-nav li a:hover:not(.active) {
-
-	border-bottom: thick solid #EF4716;
+.main-nav nav li a:hover:not(.active) {
+    border-bottom: thick solid #EF4716;
+    color: #EF4716;
+    text-decoration: none;
 }
-
-.nav-active {
-
-	border-bottom: thick solid #EF4716;
+.main-nav .nav-active {
+    border-bottom: thick solid #EF4716;
 }
 
 /* <------------------------------------------------------------------------> */
@@ -113,9 +111,31 @@ h6 {
     font-size     : 12px;
 }
 
+.short-info h3{ 
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+line-height: normal;
+	
+}
+
+.section-title h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 500px;
+line-height: normal;
+}
 
 
+.short-info p{ 
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	
+}
 
+.myphoto img{
+	width: 100%;
+    height: auto;
+}
 
 .btn{
     border: 0;
@@ -222,7 +242,7 @@ ul.list-check li::before {
 
 
 .section-padding {
-	padding: 120px 0 100px;
+	padding: 60px 0 50px;
 }
 
 
@@ -454,7 +474,7 @@ ul.list-check li::before {
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #EE9D22;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -466,7 +486,7 @@ ul.list-check li::before {
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #EE9D22;
     border-left: 0;
 }
 
@@ -488,7 +508,7 @@ ul.list-check li::before {
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #EE9D22;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -501,7 +521,7 @@ ul.list-check li::before {
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #EE9D22;
     border-left: 0;
 }
 

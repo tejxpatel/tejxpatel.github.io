@@ -37,9 +37,27 @@
     <li><a class="nav-active" href="portfolio.html">Portfolio</a></li>
     <li><a href="about.html">About Me</a></li>
     <li><a href="contact.html">Contact</a></li>
+
   </ul>
 </nav>
 	</div>
+	
+	
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>	
+	
+	<div class="mobile-nav-bar">
+	<div class="mobile-nav">
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	</div>
+	</div>
+	
+	
 	
   <div class="portfolio-nav">
 
@@ -55,7 +73,16 @@
 
     </div>	
 	
-	
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>	
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script> 
