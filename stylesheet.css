@@ -16,6 +16,14 @@ h2 {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
+	.main-nav {
+    		font-size: .25em;
+			padding: .25em .75em;
+    }
+	.home-page h1 {
+		font-size: 1em;
+	}
+	
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -108,9 +116,13 @@ h2 {
 .mobile-nav-bar {display: none;}
 
 @media only screen and (max-width: 500px) {
-    .main-nav {
-        display:none;
+   .main-nav {
+    		font-size: .25em;
+			padding: .25em .75em;
     }
+	.home-page h1 {
+		font-size: 1em;
+	}
 	
 	 .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
