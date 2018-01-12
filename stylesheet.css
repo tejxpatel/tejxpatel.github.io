@@ -14,15 +14,14 @@ h2 {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+
+@media only screen and (max-width: 650px) {
+ 
+
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
-	.main-nav {
-    		font-size: .25em;
-			padding: .25em .75em;
-    }
-	.home-page h1 {
-		font-size: 1em;
-	}
+	
 	
 }
 
@@ -119,17 +118,6 @@ h2 {
 .mobile-nav-bar {display: none;}
 
 
-@media only screen and (max-width: 500px) {
-   .main-nav {
-    		font-size: .25em;
-			padding: .25em .75em;
-    }
-	.home-page h1 {
-		font-size: 1em;
-	}
-	
-	 
-}
 
 /* <------------------------------------------------------------------------> */
 
@@ -160,6 +148,39 @@ h2 {
     text-align: center;
     font-size: 3em;
 }
+
+@media only screen and (max-width: 650px) {
+   .main-nav {
+    		font-size: .15em;
+			padding: .15em .60em;
+    }
+	.home-page h1 {
+		font-size: 4em;
+	}
+	
+	.home-page h2 {
+		font-size: 1.5em;
+	}
+	 
+	h1, h2 {font-size: 50%;}
+}
+
+@media only screen and (max-width: 922px) {
+   .main-nav {
+    		font-size: .5em;
+			padding: .5em 1em;
+    }
+	.home-page h1 {
+		font-size: 5em;
+	}
+	
+	.home-page h2 {
+		font-size: 3em;
+	}
+	 
+
+}
+
 .home-page-bg {background-color: white;}
 
 .slider {
