@@ -849,3 +849,32 @@ ul.list-check li::before {
   opacity: 0;
 }
 
+@media only screen and (max-width: 650px) {
+ 	
+	.main-nav nav li a {
+		font-size: .5em;
+		
+	}
+	
+	.portfolio-header h2 {
+		font-size: 3em;
+	}
+	
+	.portfolio-header h3 {
+		font-size: 2em;
+
+	}
+	
+	
+	.home-page h1 {
+		font-size: 3em;
+	}
+
+	.home-page h2 {
+		font-size: 1em;
+	}
+	
+	portfolio-nav a {
+		font-size: 2em;
+	}
+}
