@@ -131,7 +131,7 @@ position: fixed;
 .menu-expanded {
   transition: all .25s;
   text-align: center;
-  line-height: 200px;
+  line-height: 100px;
   height: 100%;
   width: 100%;
   border-radius: 0px;
@@ -148,7 +148,7 @@ position: fixed;
 .menu-expanded a {
   transition: all .15s;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
   padding: 5px;
   color: #fff;
   display: block;
@@ -172,7 +172,7 @@ position: fixed;
 }
 
 .row {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 
