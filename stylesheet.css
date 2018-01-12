@@ -469,6 +469,11 @@ width:auto;
 
 .mobile-nav-bar {display:none;}
 
+
+	.category, .category-end, .category-start {
+		display:none;
+	}
+
 /* <--------------------------- CONTACT FORM -----------------------------------------> */
 
 @media only screen and (max-width: 650px) {
@@ -509,6 +514,10 @@ width:auto;
 	
 	portfolio-nav a {
 		font-size: 2em;
+	}
+	
+	.category, .category-end, .category-start, .category h1, .category-start h1, .category-end h1 {
+		display:block;
 	}
 	
 	.category-end {
