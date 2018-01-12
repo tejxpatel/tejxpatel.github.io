@@ -184,16 +184,21 @@ position: fixed;
 
 .home-page {
     margin: auto;
-	z-index: 1;
-	background-color: white;
+	width: 100%;
+	z-index: 999;
 
+	position: fixed;
+	top: 0;
 }
 
 .home-page body {
+	margin: auto;
 	background-color: white;
 }
 .home-page h1 {
-	color: black;
+	
+	margin: auto;
+	color: white;
 
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -201,16 +206,28 @@ position: fixed;
     padding-top: 15%;
 }
 .home-page h2 {
-	color: black;
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+	color: white;
 
-    font-family: 'Roboto', sans-serif;
+    
     text-align: center;
     font-size: 3em;
 }
 
+.carousel img {
+	
+    
+object-fit: cover;
+overflow: hidden;
+    
+}
 
+.home-page-bg {
+	
+	margin:auto;
+}
 
-.home-page-bg {background-color: white;}
 
 
 
