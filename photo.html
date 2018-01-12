@@ -33,6 +33,22 @@
 	
 </head>
 <body>
+	
+	<div class="mobile-nav-bar">
+	<div class="menu-collapsed">
+   <div class="bar"></div>
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="about.html">About Me</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </nav>
+</div>
+	</div>
+	
+	
 	<div class="main-nav">
 <nav>
   <ul>
@@ -59,7 +75,10 @@
 	
 		
       <div class="box">
-		 
+		  
+		 <div class="category-start">
+		 <h1>Urban Exploration</h1>
+			 </div>
 		  
         <a href="exploration.html" data-toggle="" data-target="#1" title="Urban Exploration">
 		
@@ -67,6 +86,7 @@
 				
         </a>
 			
+		  
 				
         <div class="modal fade" id="1" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
@@ -86,9 +106,15 @@
     </div>
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
+		  
+		   <div class="category">
+		 <h1>Music</h1>
+			 </div>
         <a href="music.html" data-toggle="" data-target="#2" title="Music">
           <img src="http://res.cloudinary.com/dpdf1d6fv/image/upload/v1515708461/Music-6_ylfbl4.jpg">
         </a>
+		  
+		  
         <div class="modal fade" id="2" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -106,9 +132,16 @@
     </div>
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
+		  
+		     <div class="category">
+		 <h1>Travel</h1>
+			 </div>
         <a href="travel.html" data-toggle="" data-target="#3" title="Travel">
           <img src="http://res.cloudinary.com/dpdf1d6fv/image/upload/v1515708367/Travel-7_f3xdtm.jpg">
         </a>
+		  
+		
+		  
         <div class="modal fade" id="3" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -126,9 +159,15 @@
     </div>
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
+		  
+		  <div class="category">
+		 <h1>Portrait</h1>
+			 </div>
         <a href="portrait.html" data-toggle="" data-target="#4" title="Portrait">
           <img src="http://res.cloudinary.com/dpdf1d6fv/image/upload/v1515708453/Portrait-10_x67d0j.jpg">
         </a>
+		  
+		
         <div class="modal fade" id="4" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -146,9 +185,16 @@
     </div>
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
+		  
+		  <div class="category">
+		 <h1>Product</h1>
+			 </div>
         <a href="product.html" data-toggle="" data-target="#5" title="Product">
           <img src="http://res.cloudinary.com/dpdf1d6fv/image/upload/v1515708442/Product-13_tstueu.jpg">
         </a>
+		  
+		  
+		  
         <div class="modal fade" id="5" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -167,6 +213,10 @@
 	  
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
+		  
+		  <div class="category-end">
+		 <h1>Journalism</h1>
+			 </div>
         <a href="journalism.html" data-toggle="" data-target="#6" title="Journalism">
           <img src="http://res.cloudinary.com/dpdf1d6fv/image/upload/v1515708474/Journalism-3_muuhxd.jpg">
         </a>
@@ -191,11 +241,17 @@
 		</div>
 </section>
 	
-
+	
+	
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script> 
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+	
+	 <script>$(".menu-collapsed").click(function() {
+  $(this).toggleClass("menu-expanded");
+});</script>
+	
 </body>
 </html>

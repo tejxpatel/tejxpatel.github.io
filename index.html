@@ -39,6 +39,19 @@
 </head>
 <body class="home-page-bg">
 	
+	<div class="mobile-nav-bar">
+	<div class="menu-collapsed">
+   <div class="bar"></div>
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="about.html">About Me</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </nav>
+</div>
+	</div>
 
 
 <div class="home-page">
@@ -63,7 +76,9 @@
 	
 	
 
-	 
+	 <script>$(".menu-collapsed").click(function() {
+  $(this).toggleClass("menu-expanded");
+});</script>
 
 </body>
 </html>

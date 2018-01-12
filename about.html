@@ -37,6 +37,22 @@
 
 <header>
 
+	<div class="mobile-nav-bar">
+	<div class="menu-collapsed">
+   <div class="bar"></div>
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="about.html">About Me</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </nav>
+</div>
+	</div>
+	
+	
+	
 	<div class="main-nav">
 	
 <nav>
@@ -317,7 +333,10 @@ line-height: normal;">About Me</h2>
     </section><!-- End Skills Section -->
 
 
+	 
+	
 	<!-- Javascript files -->
+	
 	<script src="Assets/js/jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="Assets/js/jquery.stellar.min.js"></script>
@@ -333,5 +352,9 @@ line-height: normal;">About Me</h2>
   <script src="Assets/js/jquery.fitvids.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="Assets/js/scripts.js"></script>
+	
+	<script>$(".menu-collapsed").click(function() {
+  $(this).toggleClass("menu-expanded");
+});</script>
 </body>
 </html>
