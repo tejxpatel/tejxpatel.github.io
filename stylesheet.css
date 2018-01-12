@@ -470,7 +470,7 @@ width:auto;
 .mobile-nav-bar {display:none;}
 
 
-	.category, .category-end, .category-start {
+	.category, .category-end, .category-start, .category h1, .category-start h1, .category-end h1 {
 		display:none;
 	}
 
