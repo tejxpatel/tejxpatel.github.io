@@ -852,6 +852,7 @@ ul.list-check li::before {
 
 /* <------------------------------- SIDE MOBILE NAVIGATION -------------------------------> */
 
+
 .mobile-nav-bar {
 position: fixed;
     top: 0;
@@ -911,7 +912,7 @@ position: fixed;
 .menu-expanded {
   transition: all .25s;
   text-align: center;
-  line-height: 200px;
+  line-height: 100px;
   height: 100%;
   width: 100%;
   border-radius: 0px;
@@ -928,7 +929,7 @@ position: fixed;
 .menu-expanded a {
   transition: all .15s;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
   padding: 5px;
   color: #fff;
   display: block;
@@ -952,8 +953,9 @@ position: fixed;
 }
 
 .row {
-  padding-top: 150px;
+  padding-top: 50px;
 }
+
 
 
 
@@ -964,15 +966,22 @@ position: fixed;
 .mobile-nav-bar {display:none;}
 
 /* <--------------------------- CONTACT FORM -----------------------------------------> */
-
 @media only screen and (max-width: 650px) {
  	
 	.mobile-nav-bar {display:contents;}
 	.main-nav {display:none;}
 	
+	
+	
 	.main-nav nav li a {
 		font-size: .5em;
 		
+	}
+	
+	
+	.portfolio-header {
+		
+		padding-top: 50px;
 	}
 	
 	.portfolio-header h2 {
@@ -996,4 +1005,39 @@ position: fixed;
 	portfolio-nav a {
 		font-size: 2em;
 	}
+	
+	.category, .category-end, .category-start, .category h1, .category-start h1, .category-end h1 {
+		display:block;
+	}
+	
+	.category-end {
+		margin: auto;
+		width:35%;
+		
+	}
+	
+	.category-end h1 {
+		text-shadow: 1px .5px black;
+	}
+	
+	.category-start {
+			margin: auto;
+		width: 55%;
+	}
+	
+	.category {
+		margin: auto;
+    width: 25%
+   
+	}
+	
+	.category h1, .category-start h1, .category-end h1{
+		color: white;
+		text-align: center;
+		position:absolute;
+		margin:auto;
+		padding-top: 25%;
+	}
+	
+
 }
