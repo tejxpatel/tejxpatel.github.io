@@ -966,9 +966,11 @@ position: fixed;
 .mobile-nav-bar {display:none;}
 
 /* <--------------------------- CONTACT FORM -----------------------------------------> */
+
 @media only screen and (max-width: 650px) {
  	
-	.mobile-nav-bar {display:contents;}
+	.mobile-nav-bar {display:block;
+	z-index: 999;}
 	.main-nav {display:none;}
 	
 	
@@ -995,11 +997,12 @@ position: fixed;
 	
 	
 	.home-page h1 {
-		font-size: 3em;
+		font-size: 6em;
+		padding-top: 50%;
 	}
 
 	.home-page h2 {
-		font-size: 1em;
+		font-size: 2.5em;
 	}
 	
 	portfolio-nav a {
