@@ -77,6 +77,7 @@ position: fixed;
     top: 0;
     width: 100%;
 	z-index: 999;
+	cursor: pointer;
 
 }
 
@@ -90,6 +91,7 @@ position: fixed;
   width: 30px;
   border-radius: 15px;
   background-color: rgba(239, 71, 22, 0.95);
+	cursor: pointer;
 
 }
 
@@ -102,16 +104,19 @@ position: fixed;
   width: 100%;
   z-index: 999;
   cursor: pointer;
-	background-color: #242424;
+background-color: #242424;
 	
 }
 .menu-collapsed ul {
+	z-index: 999;
   transition: all 0s;
   position: fixed;
   left: -9000px;
 }
 
 .bar {
+	cursor: pointer;
+	z-index: 999;
   position: fixed;
   left: 12px;
   top: 24px;
@@ -185,7 +190,7 @@ position: fixed;
 .home-page {
     margin: auto;
 	width: 100%;
-	z-index: 999;
+	z-index: 1;
 
 	position: fixed;
 	top: 0;
@@ -499,7 +504,8 @@ width:auto;
 
 @media only screen and (max-width: 650px) {
  	
-	.mobile-nav-bar {display:contents;}
+	.mobile-nav-bar {display:block;
+	z-index: 999;}
 	.main-nav {display:none;}
 	
 	
