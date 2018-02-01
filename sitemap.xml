@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://tejpatel.com/</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/index.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/portfolio.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/about.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/contact.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/photo.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/video.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/design.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/exploration.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/music.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/travel.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/portrait.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/product.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tejpatel.com/journalism.html</loc>
+  <lastmod>2018-01-23T00:00:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
